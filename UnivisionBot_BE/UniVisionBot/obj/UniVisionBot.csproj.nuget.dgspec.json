@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\UniVisionBot.csproj": {}
+    "E:\\University\\Capstone1\\test\\UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\UniVisionBot.csproj": {}
   },
   "projects": {
-    "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\UniVisionBot.csproj": {
+    "E:\\University\\Capstone1\\test\\UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\UniVisionBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\UniVisionBot.csproj",
+        "projectUniqueName": "E:\\University\\Capstone1\\test\\UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\UniVisionBot.csproj",
         "projectName": "UniVisionBot",
-        "projectPath": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\UniVisionBot.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\obj\\",
+        "projectPath": "E:\\University\\Capstone1\\test\\UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\UniVisionBot.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "E:\\University\\Capstone1\\test\\UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\SDKs_VS\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

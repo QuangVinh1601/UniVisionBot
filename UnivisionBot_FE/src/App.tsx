@@ -12,12 +12,11 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import ForgotPassword from './pages/ForgotPassword';
 import ConsultantChat from './pages/ConsultantChat';
+import { PrivateRoute } from './components/PrivateRoute';
 
 function App() {
   const location = useLocation();
-  // Kiểm tra nếu đang ở trang đăng nhập hoặc đăng ký
-  const isAuthPage = location.pathname === '/login' || location.pathname === '/register' || location.pathname === '/forgot-password' || location.pathname === '/consultant-chat';
-  
+  const isAuthPage = location.pathname === '/login' || location.pathname === '/register' || location.pathname === '/forgot-password';
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -26,7 +25,6 @@ function App() {
         <hr className="border-t border-gray-300" />
       </div>
       <div className={`flex flex-1 mt-16 ${isAuthPage ? 'justify-center' : ''}`}>
-        {/* Hiển thị banner nếu không phải trang đăng nhập hoặc đăng ký */}
         {!isAuthPage && (
           <>
             <AdBanner position="left" />
@@ -41,11 +39,18 @@ function App() {
             <Route path="/what-to-study" element={<WhatToStudy />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/forgot-password" element={<ForgotPassword/>}></Route>
-            <Route path="/consultant-chat" element={<ConsultantChat/>}></Route>
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+            {/* Protected route for ConsultantChat */}
+            <Route
+              path="/consultant-chat"
+              element={
+                <PrivateRoute role="CONSULTANT">  {/* Add role prop here */}
+                  <ConsultantChat />
+                </PrivateRoute>
+              }
+            />
           </Routes>
         </main>
-        {/* Hiển thị banner nếu không phải trang đăng nhập hoặc đăng ký */}
         {!isAuthPage && (
           <>
             <hr className="border-r border-gray-300" />
@@ -55,10 +60,10 @@ function App() {
       </div>
 
       {!isAuthPage && (
-          <>
-            <hr className="border-t border-gray-300" />
-            <Footer />
-          </>
+        <>
+          <hr className="border-t border-gray-300" />
+          <Footer />
+        </>
       )}
       {!isAuthPage && <Chatbot />}
     </div>
