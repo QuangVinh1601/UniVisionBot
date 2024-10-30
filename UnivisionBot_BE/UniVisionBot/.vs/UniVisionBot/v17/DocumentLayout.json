@@ -1,0 +1,577 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\repositories\\login\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:repositories\\login\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\services\\login\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:services\\login\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\repositories\\university\\universityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:repositories\\university\\universityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\dtos\\login\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:dtos\\login\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\univisionbot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:univisionbot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\controllers\\universitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:controllers\\universitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\dtos\\university\\universityrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:dtos\\university\\universityrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\dtos\\role\\rolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:dtos\\role\\rolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\dtos\\register\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:dtos\\register\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\dtos\\login\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:dtos\\login\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\dtos\\register\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:dtos\\register\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\dtos\\role\\roleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:dtos\\role\\roleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\dtos\\university\\universityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:dtos\\university\\universityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\consultant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\consultant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\userpreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\userpreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\services\\university\\iuniversityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:services\\university\\iuniversityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\configurations\\dbconfig\\mongodbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:configurations\\dbconfig\\mongodbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\chatlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\chatlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\careerpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\careerpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\suggesteduniversities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\suggesteduniversities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\models\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:models\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|d:\\cap1_univisionbot\\univisionbot_be\\univisionbot\\configurations\\options\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55710F4-30F1-4CE2-B102-37AC47A9B76B}|UniVisionBot.csproj|solutionrelative:configurations\\options\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleRequest.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Role\\RoleRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Role\\RoleRequest.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Role\\RoleRequest.cs",
+              "RelativeToolTip": "DTOs\\Role\\RoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:30:40.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAjwHEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T02:24:12.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UniVisionBot.http",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\UniVisionBot.http",
+              "RelativeDocumentMoniker": "UniVisionBot.http",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\UniVisionBot.http",
+              "RelativeToolTip": "UniVisionBot.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-29T02:39:48.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:35:15.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Services\\Login\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Login\\ILoginRepository.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Services\\Login\\ILoginRepository.cs",
+              "RelativeToolTip": "Services\\Login\\ILoginRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:48:12.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Repositories\\Login\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Login\\LoginRepository.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Repositories\\Login\\LoginRepository.cs",
+              "RelativeToolTip": "Repositories\\Login\\LoginRepository.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwIwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:49:03.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UniversityRepository.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Repositories\\University\\UniversityRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\University\\UniversityRepository.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Repositories\\University\\UniversityRepository.cs",
+              "RelativeToolTip": "Repositories\\University\\UniversityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T14:58:24.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UniversityController.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Controllers\\UniversityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UniversityController.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Controllers\\UniversityController.cs",
+              "RelativeToolTip": "Controllers\\UniversityController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:42:51.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UniversityRequest.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\University\\UniversityRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\University\\UniversityRequest.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\University\\UniversityRequest.cs",
+              "RelativeToolTip": "DTOs\\University\\UniversityRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:35:54.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Login\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Login\\LoginRequest.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Login\\LoginRequest.cs",
+              "RelativeToolTip": "DTOs\\Login\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:10:03.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:12:28.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:03:42.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\AppRole.cs",
+              "RelativeDocumentMoniker": "Models\\AppRole.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\AppRole.cs",
+              "RelativeToolTip": "Models\\AppRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:05:22.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T02:35:43.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Register\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Register\\RegisterRequest.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Register\\RegisterRequest.cs",
+              "RelativeToolTip": "DTOs\\Register\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:11:09.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UniversityResponse.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\University\\UniversityResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\University\\UniversityResponse.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\University\\UniversityResponse.cs",
+              "RelativeToolTip": "DTOs\\University\\UniversityResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:36:17.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Login\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Login\\LoginResponse.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Login\\LoginResponse.cs",
+              "RelativeToolTip": "DTOs\\Login\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:10:15.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RoleResponse.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Role\\RoleResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Role\\RoleResponse.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Role\\RoleResponse.cs",
+              "RelativeToolTip": "DTOs\\Role\\RoleResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:30:54.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterResponse.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Register\\RegisterResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Register\\RegisterResponse.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\DTOs\\Register\\RegisterResponse.cs",
+              "RelativeToolTip": "DTOs\\Register\\RegisterResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:10:37.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Consultant.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Consultant.cs",
+              "RelativeDocumentMoniker": "Models\\Consultant.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Consultant.cs",
+              "RelativeToolTip": "Models\\Consultant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:42:34.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserPreference.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\UserPreference.cs",
+              "RelativeDocumentMoniker": "Models\\UserPreference.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\UserPreference.cs",
+              "RelativeToolTip": "Models\\UserPreference.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:51:07.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUniversityRepository.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Services\\University\\IUniversityRepository.cs",
+              "RelativeDocumentMoniker": "Services\\University\\IUniversityRepository.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Services\\University\\IUniversityRepository.cs",
+              "RelativeToolTip": "Services\\University\\IUniversityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T15:06:33.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MongoDbConfig.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Configurations\\DbConfig\\MongoDbConfig.cs",
+              "RelativeDocumentMoniker": "Configurations\\DbConfig\\MongoDbConfig.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Configurations\\DbConfig\\MongoDbConfig.cs",
+              "RelativeToolTip": "Configurations\\DbConfig\\MongoDbConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T14:29:50.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "University.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\University.cs",
+              "RelativeDocumentMoniker": "Models\\University.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\University.cs",
+              "RelativeToolTip": "Models\\University.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:47:08.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChatLog.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\ChatLog.cs",
+              "RelativeDocumentMoniker": "Models\\ChatLog.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\ChatLog.cs",
+              "RelativeToolTip": "Models\\ChatLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:50:31.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CareerPath.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\CareerPath.cs",
+              "RelativeDocumentMoniker": "Models\\CareerPath.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\CareerPath.cs",
+              "RelativeToolTip": "Models\\CareerPath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:48:32.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Quiz.cs",
+              "RelativeDocumentMoniker": "Models\\Quiz.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Quiz.cs",
+              "RelativeToolTip": "Models\\Quiz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:46:04.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Review.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Review.cs",
+              "RelativeToolTip": "Models\\Review.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:49:18.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SuggestedUniversities.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\SuggestedUniversities.cs",
+              "RelativeDocumentMoniker": "Models\\SuggestedUniversities.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\SuggestedUniversities.cs",
+              "RelativeToolTip": "Models\\SuggestedUniversities.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:51:52.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "QuizResult.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\QuizResult.cs",
+              "RelativeDocumentMoniker": "Models\\QuizResult.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\QuizResult.cs",
+              "RelativeToolTip": "Models\\QuizResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:46:33.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Consultation.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Consultation.cs",
+              "RelativeDocumentMoniker": "Models\\Consultation.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Consultation.cs",
+              "RelativeToolTip": "Models\\Consultation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:53:18.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Faculty.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Faculty.cs",
+              "RelativeDocumentMoniker": "Models\\Faculty.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Faculty.cs",
+              "RelativeToolTip": "Models\\Faculty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:47:35.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Major.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Major.cs",
+              "RelativeDocumentMoniker": "Models\\Major.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Models\\Major.cs",
+              "RelativeToolTip": "Models\\Major.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:47:59.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Configurations\\Options\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Configurations\\Options\\AppSettings.cs",
+              "ToolTip": "D:\\Cap1_UniVisionBot\\UnivisionBot_BE\\UniVisionBot\\Configurations\\Options\\AppSettings.cs",
+              "RelativeToolTip": "Configurations\\Options\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T02:39:05.4Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
