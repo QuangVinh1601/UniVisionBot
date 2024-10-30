@@ -48,7 +48,7 @@ namespace UniVisionBot.Controllers
         [HttpPost]
         [Route("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
-        {
+        {   
             var result = await _loginRepository.LoginAsync(request);
             Response.Cookies.Append("JWT", result.AccessToken);
             return result.Success ? Ok(result) : BadRequest(result.Message);

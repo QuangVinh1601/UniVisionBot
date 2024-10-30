@@ -12,5 +12,8 @@ namespace UniVisionBot.Services.Login
         Task<RoleResponse> RoleAsync (RoleRequest request);
         
         Task<JwtSecurityToken> VerifyToken(string jwtToken);
+
+        Task<RoleResponse> CreateConsultantRole (RoleRequest request);
+        Task<>
     }
 }
