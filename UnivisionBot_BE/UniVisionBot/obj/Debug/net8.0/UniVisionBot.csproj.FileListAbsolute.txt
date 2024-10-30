@@ -125,3 +125,4 @@ D:\Cap1_UniVisionBot\UnivisionBot_BE\UniVisionBot\obj\Debug\net8.0\refint\UniVis
 D:\Cap1_UniVisionBot\UnivisionBot_BE\UniVisionBot\obj\Debug\net8.0\UniVisionBot.pdb
 D:\Cap1_UniVisionBot\UnivisionBot_BE\UniVisionBot\obj\Debug\net8.0\UniVisionBot.genruntimeconfig.cache
 D:\Cap1_UniVisionBot\UnivisionBot_BE\UniVisionBot\obj\Debug\net8.0\ref\UniVisionBot.dll
+D:\Cap1_UniVisionBot\UnivisionBot_BE\UniVisionBot\obj\Debug\net8.0\UniVisionBot.sourcelink.json

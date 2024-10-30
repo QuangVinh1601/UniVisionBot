@@ -38,7 +38,7 @@ namespace UniVisionBot.Controllers
         }
 
         [HttpPost]
-        [Route("register")]
+        [Route("register/user")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
             var result = await _loginRepository.RegisterAsync(request);
@@ -46,9 +46,25 @@ namespace UniVisionBot.Controllers
         }
 
         [HttpPost]
+        [Route("register/consultant")] 
+        public async Task<IActionResult> RegisterConsultant ([FromBody] RegisterRequest request)
+        {
+            var result = await _loginRepository.CreateConsultantRoleAsync(request);
+            return result.Success ? Ok(result) : BadRequest(result.Message);
+        }
+
+        [HttpPost]
+        [Route("register/admin")]
+        public async Task<IActionResult> RegisterAdmin([FromBody] RegisterRequest request)
+        {
+            var result = await _loginRepository.CreateAdminRoleAsync(request);
+            return result.Success ? Ok(result) : BadRequest(result.Message);
+        }
+
+        [HttpPost]
         [Route("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
-        {
+        {   
             var result = await _loginRepository.LoginAsync(request);
             Response.Cookies.Append("JWT", result.AccessToken);
             return result.Success ? Ok(result) : BadRequest(result.Message);

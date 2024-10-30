@@ -17,8 +17,40 @@
   },
   {
     "ContainingType": "UniVisionBot.Controllers.LoginController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/Login/register/admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UniVisionBot.DTOs.Register.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniVisionBot.Controllers.LoginController",
+    "Method": "RegisterConsultant",
+    "RelativePath": "api/Login/register/consultant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UniVisionBot.DTOs.Register.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniVisionBot.Controllers.LoginController",
     "Method": "Register",
-    "RelativePath": "api/Login/register",
+    "RelativePath": "api/Login/register/user",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
