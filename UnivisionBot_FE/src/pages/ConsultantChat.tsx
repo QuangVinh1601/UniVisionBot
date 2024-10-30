@@ -114,7 +114,7 @@ const ConsultantChat = () => {
   useEffect(() => {
     setCurrentConversation(conversations[0]);
     setFilteredConversations(conversations);
-  }, []);
+  }, [conversations]);
 
   // Handle search functionality - now with Vietnamese name support
   useEffect(() => {

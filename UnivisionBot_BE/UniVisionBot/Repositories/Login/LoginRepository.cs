@@ -26,6 +26,88 @@ namespace UniVisionBot.Repositories.Login
             _options = options;
         }
 
+        public async Task<RegisterResponse> CreateAdminRoleAsync(RegisterRequest request)
+        {
+            try
+            {
+                var userExisted = await _userManager.FindByEmailAsync(request.Email);
+                if (userExisted != null)
+                {
+                    return new RegisterResponse { Message = "User is existed", Success = false };
+                }
+
+                userExisted = new AppUser()
+                {
+                    Email = request.Email,
+                    FullName = request.FullName,
+                    UserName = request.Email,
+                    ConcurrencyStamp = Guid.NewGuid().ToString()
+                };
+                var resultCreateUser = await _userManager.CreateAsync(userExisted, request.Password);
+                if (!resultCreateUser.Succeeded)
+                {
+                    return new RegisterResponse { Message = "Failed to create user", Success = false };
+                }
+                var resultAddRole = await _userManager.AddToRoleAsync(userExisted, "ADMIN");
+                if (!resultAddRole.Succeeded)
+                {
+                    return new RegisterResponse { Message = "Fail to add role", Success = false };
+                }
+                return new RegisterResponse
+                {
+                    Success = true,
+                    Message = "Successfull create user"
+                };
+            }
+            catch (Exception ex)
+            {
+                {
+                    return new RegisterResponse { Message = ex.Message, Success = false };
+                }
+            }
+        }
+
+        public async Task<RegisterResponse> CreateConsultantRoleAsync(RegisterRequest request)
+        {
+            try
+            {
+                var userExisted = await _userManager.FindByEmailAsync(request.Email);
+                if (userExisted != null)
+                {
+                    return new RegisterResponse { Message = "User is existed", Success = false };
+                }
+
+                userExisted = new AppUser()
+                {
+                    Email = request.Email,
+                    FullName = request.FullName,
+                    UserName = request.Email,
+                    ConcurrencyStamp = Guid.NewGuid().ToString()
+                };
+                var resultCreateUser = await _userManager.CreateAsync(userExisted, request.Password);
+                if (!resultCreateUser.Succeeded)
+                {
+                    return new RegisterResponse { Message = "Failed to create user", Success = false };
+                }
+                var resultAddRole = await _userManager.AddToRoleAsync(userExisted, "CONSULTANT");
+                if (!resultAddRole.Succeeded)
+                {
+                    return new RegisterResponse { Message = "Fail to add role", Success = false };
+                }
+                return new RegisterResponse
+                {
+                    Success = true,
+                    Message = "Successfull create user"
+                };
+            }
+            catch (Exception ex)
+            {
+                {
+                    return new RegisterResponse { Message = ex.Message, Success = false };
+                }
+            }
+        }
+
         public async Task<LoginResponse> LoginAsync(LoginRequest request)
         {
             var user = await _userManager.FindByEmailAsync(request.Email);
