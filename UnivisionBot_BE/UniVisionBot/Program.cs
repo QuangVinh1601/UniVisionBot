@@ -31,6 +31,7 @@ namespace UniVisionBot
             BsonSerializer.RegisterSerializer(new DateTimeOffsetSerializer(MongoDB.Bson.BsonType.String));
 
             var configuration = builder.Configuration;
+            builder.Services.AddCors();
             builder.Services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
 
             builder.Services.Configure<MyDatabase>(configuration.GetSection("MyDatabase"));
@@ -112,6 +113,13 @@ namespace UniVisionBot
                 app.UseSwaggerUI();
             }
             app.UseHttpsRedirection();
+
+            app.UseCors(options => options
+                .WithOrigins(new[] { "http://localhost:3000", "http://localhost:8080", "http://localhost:4200" })
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials()
+            );
 
             app.UseAuthentication();
             app.UseAuthorization();

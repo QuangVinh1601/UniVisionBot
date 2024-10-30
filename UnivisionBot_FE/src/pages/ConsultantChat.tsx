@@ -19,7 +19,6 @@ interface Conversation {
 }
 
 const ConsultantChat = () => {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredConversations, setFilteredConversations] = useState<Conversation[]>([]);
   const [conversations, setConversations] = useState<Conversation[]>([
@@ -168,18 +167,6 @@ const ConsultantChat = () => {
     setNewMessage('');
   };
 
-  if (!isAuthenticated) {
-    return (
-      <div className="flex items-center justify-center h-screen bg-gray-100">
-        <button 
-          onClick={() => setIsAuthenticated(true)}
-          className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600"
-        >
-          Đăng nhập như Consultant
-        </button>
-      </div>
-    );
-  }
 
   return (
     <div className="h-screen flex flex-col">
